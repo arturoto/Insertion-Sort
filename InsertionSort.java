@@ -3,24 +3,27 @@
 public class InsertionSort{
 
 
-	/*
-	Sudo code from CS50:
 
-	for i = 1 to n - 1 
-		element = array[i]
-		j = i
-		while (j > 0 and array[j - 1] > element)
-			array[j] = array[j - 1]
-			j = j - 1
-		array[j] = elements
+	public static int[] sortingMethod(int[] arrayToSort){
+		for(int i = 1; i < arrayToSort.length; i++){
+			numberInQuestion = arrayToSort[i];
+			int j = i;
 
-	Sudo code 
+			while( i > 0 ){
+				if( arrayToSort[j - 1] > numberInQuestion){
+					arrayToSort[j] = arrayToSort[j - 1 ];
+					j = j - 1;
+				}else{
+					break;
+				}
+			}
+			arrayToSort[j] = numberInQuestion
 
-	*/
+		}
 
-	public static sortingMethod(int[] arrayToSort){
+	}
 
-
+	public static void main(String[] args){
 
 	}
 
