@@ -3,7 +3,6 @@ import java.util.Arrays;
 public class InsertionSort{
 
 
-
 	public static void sortingMethod(int[] arrayToSort){
 		for(int i = 1; i < arrayToSort.length; i++){
 			int numberInQuestion = arrayToSort[i];
@@ -20,7 +19,6 @@ public class InsertionSort{
 			arrayToSort[j] = numberInQuestion;
 
 		}
-
 	}
 
 	public static void main(String[] args){
@@ -32,8 +30,5 @@ public class InsertionSort{
 
 
 	}
-
-
-
 
 }
